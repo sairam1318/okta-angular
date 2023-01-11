@@ -60,3 +60,14 @@ Please post any questions as comments on the [blog post](https://developer.okta.
 ## License
 
 Apache 2.0, see [LICENSE](LICENSE).
+
+
+## Things to note with Angular 14 version or greater.
+
+ 1. Enable interaction code flow in okta spa application.
+![GrantType](./src/assets/GrantType.PNG)
+ 2. If there is no interaction code flow in your okta identity engine, enable it in settings/Account.
+ ![WidgetConfig](./src/assets/Widget.PNG)
+ 3. And enable interaction code flow in authorization server access policies.
+![AccessPolicy](./src/assets/serverconfig.PNG)
+ 4. You are good to go🥳
