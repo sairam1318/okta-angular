@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  clientId: '0oa7wqtbwoSmmLoQ75d7',
+  baseUrl: 'https://dev-37434210.okta.com'
 };
 
 /*

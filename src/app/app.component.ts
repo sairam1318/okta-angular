@@ -25,6 +25,7 @@ export class AppComponent implements OnInit {
     });
   }
 
+  // on component loads
   async ngOnInit(): Promise<void> {
     try {
       this.user = await this.oktaSignIn.authClient.token.getUserInfo();

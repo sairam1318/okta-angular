@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import OktaSignIn from '@okta/okta-signin-widget';
+import { environment } from 'src/environments/environment';
 
 @Injectable({
   providedIn: 'root'
@@ -9,8 +10,8 @@ export class Okta {
 
   constructor() {
     this.widget = new OktaSignIn({
-      baseUrl: 'https://dev-37434210.okta.com',
-      clientId: "0oa7wqtbwoSmmLoQ75d7",
+      baseUrl: environment.baseUrl,
+      clientId: environment.clientId,
       redirectUri: 'http://localhost:4200/login/callback',
     });
   }

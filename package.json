@@ -20,11 +20,18 @@
     "@angular/elements": "^14.2.8",
     "@angular/platform-browser": "^14.2.6",
     "@angular/platform-browser-dynamic": "^14.2.6",
+    "@biesbjerg/ngx-translate-extract-marker": "^1.0.0",
+    "@ng-select/ng-select": "^9.x.x",
+    "@ngrx/effects": "^14.x.x",
+    "@ngrx/store": "^14.x.x",
+    "@ngrx/store-devtools": "^14.x.x",
+    "@ngx-translate/core": "^14.x.x",
+    "@ngx-translate/http-loader": "^7.x.x",
     "@angular/router": "^14.2.6",
     "@okta/okta-angular": "^6.x.x",
     "@okta/okta-auth-js": "^7.x.x",
     "@okta/okta-signin-widget": "^7.x.x",
-    "bootstrap": "4.5.2",
+    "bootstrap": "^5.1.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.2.0",
     "zone.js": "~0.11.4"
@@ -34,6 +41,7 @@
     "@angular/cli": "^14.2.6",
     "@angular/compiler-cli": "^14.2.6",
     "@types/node": "^12.11.1",
+    "@ngrx/schematics": "^12.4.0",
     "@types/jasmine": "~3.6.0",
     "jasmine-core": "~3.8.0",
     "jasmine-spec-reporter": "~5.0.0",
@@ -45,6 +53,8 @@
     "protractor": "~7.0.0",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
-    "typescript": "~4.6.4"
+    "typescript": "~4.6.4",
+    "@biesbjerg/ngx-translate-extract": "^7.0.4",
+    "@openapitools/openapi-generator-cli": "^2.4.12"
   }
 }
